@@ -1031,6 +1031,23 @@
       "11.1.5.1-0"
     ]
   },
+  "ffmpeg" : {
+    "dependency_names" : [
+      "libavcodec",
+      "libavdevice",
+      "libavfilter",
+      "libavformat",
+      "libavutil",
+      "libswresample",
+      "libswscale"
+    ],
+    "program_names" : [
+      "ffmpeg"
+    ],
+    "versions" : [
+      "8.0.1-1"
+    ]
+  },
   "flac": {
     "dependency_names": [
       "flac"
